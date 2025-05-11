@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Salud Integrales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-500 text-white py-4 flex justify-between items-center shadow-md sticky top-0 z-10 rounded-md">
+        <div class="logo text-xl font-bold ml-4">Servicios de Salud Integrales</div>
+        <nav class="mr-4">
+            <ul class="flex space-x-4">
+                <li><a href="#inicio" class="hover:text-blue-300 no-underline">Inicio</a></li>
+                <li><a href="#servicios" class="hover:text-blue-300 no-underline">Servicios</a></li>
+                <li><a href="#contacto" class="hover:text-blue-300 no-underline">Contacto</a></li>
+                <li><a href="#login" class="hover:text-blue-300 no-underline">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="bg-blue-100 text-gray-800 text-center py-20 px-4 rounded-md">
+        <h2 class="text-3xl font-semibold mb-4">Bienvenido a Servicios de Salud Integrales</h2>
+        <p class="text-lg mb-8">Su plataforma integral para la gestión de servicios de salud y atención al paciente.</p>
+        <a href="#servicios" class="bg-green-500 text-white py-3 px-6 rounded-full hover:bg-green-700 transition duration-300 ease-in-out no-underline">Descubra nuestros servicios</a>
+    </section>
+
+    <section id="servicios" class="bg-gray-100 py-20 px-4 text-gray-800 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Nuestros Servicios</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Consultorios</h3>
+                <p class="text-gray-600 mb-4">Gestión de citas, expediente clínico.</p>
+                <i class="fas fa-stethoscope fa-3x text-blue-500 mb-4"></i>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Clínicas y Hospitales</h3>
+                <p class="text-gray-600 mb-4">Administración de pacientes, expediente clinico, recursos, y personal médico.</p>
+                 <i class="fas fa-hospital fa-3x text-blue-500 mb-4"></i>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Gabinete de Imagenología</h3>
+                <p class="text-gray-600 mb-4">Gestión de estudios, resultados, PACS, RIS.</p>
+                <i class="fas fa-x-ray fa-3x text-blue-500 mb-4"></i>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Laboratorios</h3>
+                <p class="text-gray-600 mb-4">Gestión de muestras, análisis, LIS, resultados.</p>
+                <i class="fas fa-flask fa-3x text-blue-500 mb-4"></i>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Farmacias</h3>
+                <p class="text-gray-600 mb-4">Control de inventario, dispensación de medicamentos, y punto de venta o entrega.</p>
+                <i class="fas fa-prescription-bottle-alt fa-3x text-blue-500 mb-4"></i>
+            </div>
+             <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Bancos de Sangre</h3>
+                <p class="text-gray-600 mb-4">Gestión de donantes, unidades de sangre, y distribución.</p>
+                <i class="fas fa-tint fa-3x text-red-500 mb-4"></i>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between">
+                <h3 class="text-xl font-semibold mb-4">Pacientes</h3>
+                <p class="text-gray-600 mb-4">Acceso a citas, resultados de estudios, y seguimiento de tratamientos, busqueda de medicos.</p>
+                <i class="fas fa-user-injured fa-3x text-green-500 mb-4"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-blue-100 py-20 px-4 text-gray-800 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Contáctenos</h2>
+        <p class="text-lg mb-4">¿Tiene alguna pregunta o desea más información? Contáctenos hoy mismo.</p>
+        <p class="text-lg mb-8">Email: contacto@sistemasmedicos.com | Teléfono: +646 101 59 58</p>
+        <a href="mailto:contacto@sistemasmedicos.com" class="bg-indigo-500 text-white py-3 px-6 rounded-full hover:bg-indigo-700 transition duration-300 ease-in-out no-underline">Enviar correo electrónico</a>
+    </section>
+
+    <section id="login" class="bg-gray-100 py-20 px-4 text-gray-800 text-center rounded-md">
+        <h2 class="text-3xl font-semibold mb-8">Inicio de Sesión</h2>
+        <div class="flex justify-center">
+            <div class="bg-white rounded-lg shadow-md p-8 max-w-md w-full">
+                <form id="login-form" class="space-y-6">
+                    <div>
+                        <label for="tipo-usuario" class="block text-gray-700 text-sm font-bold mb-2">Tipo de Usuario:</label>
+                        <select id="tipo-usuario" name="tipo-usuario" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                            <option value="empleado">Empleado</option>
+                            <option value="paciente">Paciente</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="username" class="block text-gray-700 text-sm font-bold mb-2">Nombre de Usuario:</label>
+                        <input type="text" id="username" name="username" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Ingrese su nombre de usuario">
+                    </div>
+                    <div>
+                        <label for="password" class="block text-gray-700 text-sm font-bold mb-2">Contraseña:</label>
+                        <input type="password" id="password" name="password" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Ingrese su contraseña">
+                    </div>
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline w-full">Iniciar Sesión</button>
+                    <div id="error-message" class="text-red-500 text-xs italic" style="display: none;"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4 text-center rounded-md">
+        <p>© 2025 Servicios de Salud Integrales. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const tipoUsuario = document.getElementById('tipo-usuario').value;
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorMessage = document.getElementById('error-message');
+
+            // Aquí iría la lógica de autenticación con la base de datos MySQL
+            // Simulando una autenticación exitosa para propósitos de demostración
+            if (username === 'empleado' && password === 'password') {
+                errorMessage.style.display = 'none';
+                alert(`Bienvenido, ${tipoUsuario}! Has iniciado sesión correctamente.`);
+                // Aquí podrías redirigir al usuario a su panel de control correspondiente
+                // window.location.href = '/dashboard-empleado.html';
+            } else if (username === 'paciente' && password === 'password') {
+                errorMessage.style.display = 'none';
+                alert(`Bienvenido, ${tipoUsuario}! Has iniciado sesión correctamente.`);
+                // Aquí podrías redirigir al usuario a su panel de control de paciente
+                // window.location.href = '/dashboard-paciente.html';
+            } else {
+                errorMessage.textContent = 'Credenciales incorrectas. Por favor, inténtelo de nuevo.';
+                errorMessage.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
